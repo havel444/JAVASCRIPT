@@ -34,12 +34,27 @@
 
 
 //? IMPUT
+//* IMPUT BASICO
 // let nombre = prompt('Ingrese un nombre: ');
 
+console.log('1')
 
+//* IMPUT CON SALIDA
+// let usuario = prompt('Ingrese su nombre de usuario:');
+// let usuario_comfinado = `Bienvenido ${usuario}`;
+// alert(usuario_comfinado);
 
+//* SUMA CON IMPUT Y ALERT
+let numero_1 = prompt('Ingrese el primer numero:');
+let numero_2 = prompt('Ingrese el segundo numero:');
 
+let Multiplicacion = Number(numero_1) * Number(numero_2);
 
+if (Multiplicacion == parseInt(Multiplicacion)){
+  alert(`El resultado es: ${Multiplicacion}`)
+}else{
+  alert('Incorrecto')
+}
 
 
 
