@@ -37,8 +37,6 @@
 //* IMPUT_ BASICO
 // let nombre = prompt('Ingrese un nombre: ');
 
-console.log('1')
-
 //* IMPUT: CON SALIDA
 // let usuario = prompt('Ingrese su nombre de usuario:');
 // let usuario_comfinado = `Bienvenido ${usuario}`;
