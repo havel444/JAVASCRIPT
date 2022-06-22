@@ -41,23 +41,19 @@
 
 
 //* &&: y.
-let age_gab = prompt('Enter you age: ')
+// let age_gab = prompt('Enter you age: ')
 
-if(age_gab <=13){
-    console.log('You can not work')
-} else if((age_gab >= 14) && (age_gab <= 17)){
-    console.log('You work with restrictions')
-} else if((age_gab >= 18) && (age_gab <= 65)){
-    console.log('You can work')
-} 
-
-
-
-
-
-
-
-
+// if(age_gab === ''){
+//     console.log('ERROR')
+// } else if(age_gab <= 13){
+//     console.log('You can not work')
+// } else if((age_gab >= 14) && (age_gab <= 17)){
+//     console.log('You work with restrictions')
+// } else if((age_gab >= 18) && (age_gab <= 65)){
+//     console.log('You can work')
+// } else{
+//     console.log('You can retire')
+// } 
 
 
 //? BOOLEAN
@@ -74,6 +70,79 @@ if(age_gab <=13){
 // else{
 //     console.log('la casa no es habitable');
 // }
+
+//TODO PRACTICA
+
+//? EJEMPLO
+
+//* IF CONSULTORIO
+// let nombre_peticion = prompt('Ingrese su nombre: ')
+// let peticion = Number(prompt('Ingrese su nemero de la maquina: '));
+// let cantidad = Number(prompt('Ingrese su cantidad de errores: '));
+// let hola = prompt('Marco: Bienvenido, hola');
+
+
+// if((peticion > 1000 ) && (hola === 'hola') && ((cantidad >= 10) && (cantidad <= 50))){
+//     alert(`Marcos: Hola, ${nombre_peticion} su maquina ${peticion} fue reparada de ${cantidad} errores y esta lista para retirar.`)
+// }else{
+//     alert('Datos incompletos. Vuelva a intentarlo.')
+// }
+
+
+//* IF UBICACION
+// let localidad = prompt('Ingrese su localidad: ');
+// let altura = new Number(prompt('Ingrese su altura:'));
+// let comuna = new Number(prompt('Ingrese su numero de comuna: '));
+
+// if((localidad === (('castillo') || ('argentina') || ('saavedra'))) && ((altura < 4000) && (altura > 2000)) && ((comuna < 10) && (comuna > 5))){
+//     alert('Usted vive en el barrio "Flores".');
+// }else if((localidad === '') || (altura === '') || (comuna === '')){  
+//     alert('Datos incompletos.')
+// }else{
+//     alert('Datos incorrectos.')
+// }
+
+
+//* IF DATOS
+let nombre_dato = prompt('Ingrese el nombre completo:');
+let numero_telefono = Number(prompt('Ingrese el numero de telefono: '));
+let numero_id = Number(prompt('Ingrese la id: '));
+
+if(nombre_dato !== ''){
+    console.log(`El telefono de ${nombre_dato} es 1146278888`);
+} else if(numero_telefono > 1000){
+    console.log('El numero de telefono esta asociado al nombre de: Juan.');
+} else if((numero_id < 50) && (numero_id > 10)){
+    console.log('La id esta asociada al trabajador: Pedro.')
+} else if((nombre_dato === ' ') && (numero_telefono === ' ') && (numero_id === ' ')){ 
+    console.log('Datos incompletos')
+} else{
+    console.log('Datos incorrectos.')
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

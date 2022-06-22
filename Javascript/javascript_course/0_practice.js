@@ -34,7 +34,8 @@
 // }
 
 
-//? IF ELSE IF
+//? IF ELSE IF 
+//! &&, ||, !, ===, !==
 
 
 
@@ -58,6 +59,49 @@
 // let asd = tipos[pokemon_usado] || pokemon_0
 
 // console.log(asd)
+
+
+
+
+
+// let elemento_pokemon = prompt('Ingrese el elemento de su pokemon: ')
+
+// const tabla_enemigos = {
+//     agua: 'electricidad',
+//     volador: 'normal',
+//     planta: 'bicho',
+//     dragon: 'ada'
+// }
+
+// const elemento_pokemon_base = 'normal'
+
+// let analisis = tabla_enemigos[elemento_pokemon] || elemento_pokemon_base
+
+// alert(`Su oponente es el tipo ${analisis}`)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
