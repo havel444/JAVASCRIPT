@@ -104,39 +104,43 @@
 
 
 //* IF DATOS
-let nombre_dato = prompt('Ingrese el nombre completo:');
-let numero_telefono = Number(prompt('Ingrese el numero de telefono: '));
-let numero_id = Number(prompt('Ingrese la id: '));
+// let nombre_dato = prompt('Ingrese el nombre completo:');
+// let numero_telefono = Number(prompt('Ingrese el numero de telefono: '));
+// let numero_id = Number(prompt('Ingrese la id: '));
 
-if(nombre_dato !== ''){
-    console.log(`El telefono de ${nombre_dato} es 1146278888`);
-} else if(numero_telefono > 1000){
-    console.log('El numero de telefono esta asociado al nombre de: Juan.');
-} else if((numero_id < 50) && (numero_id > 10)){
-    console.log('La id esta asociada al trabajador: Pedro.')
-} else if((nombre_dato === ' ') && (numero_telefono === ' ') && (numero_id === ' ')){ 
-    console.log('Datos incompletos')
-} else{
-    console.log('Datos incorrectos.')
-} 
-
-
+// if(nombre_dato != ''){
+//     console.log(`El telefono de ${nombre_dato} es 1146278888`);
+// } else if(numero_telefono > 1000){
+//     console.log('El numero de telefono esta asociado al nombre de: Juan.');
+// } else if((numero_id < 50) && (numero_id > 10)){
+//     console.log('La id esta asociada al trabajador: Pedro.')
+// } else if((nombre_dato == '') && (numero_telefono == '') && (numero_id == '')){ 
+//     console.log('Datos incompletos')
+// } else{
+//     console.log('Datos incorrectos.')
+// } 
 
 
+//* IF EJEMPLO CODE
+// let age_s = Number(prompt('Enter you age: '))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// if(age_s == ''){
+//     console.log('Aun no naces.')
+// } else if(age_s <= 6){
+//     console.log('Eres muy joven.')
+// } else if(age_s <= 12){
+//     console.log('Estas en la flor de la juventud.')
+// } else if(age_s <= 17){
+//     console.log('Tratas con la adolescencia.')
+// } else if(age_s >= 18 && age_s < 40){
+//     console.log('Empiezas tu vida adulta.')
+// } else if(age_s >= 40 && age_s < 60){
+//     console.log('Empiezas la segunda etapa de tu vida.')
+// } else if(age_s < 80){
+//     console.log('Vives los ultimos dias de tu vida.')
+// } else{
+//     console.log('SIGUES CON VIDA???!!!.')
+// }
 
 
 
